@@ -38,7 +38,7 @@ function paintToDo (newTodo) {
   li.appendChild(button);
   toDoList.appendChild(li);
 }
-
+// 1번
 function handleToDoSubmit (event) {
   event.preventDefault(); // submtit 됐을 때 자동적으로 새로고침 되는 걸 막아준다.// event = submit 
   const newTodo = toDoInput.value; // 이 문에서 하는 건 input의 현재value를 새로운 변수(newTodo)에 복사
