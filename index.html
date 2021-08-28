@@ -9,31 +9,59 @@
 
 </head>
 <body>
+  <header class="inner">
   <!-- 시계 -->
+  <div id="clock-container">
 <h2 id="clock">00:00:00</h2>
+<div class="weather-container">
+  <div id="weather">
+    <span></span>
+    <span></span>
+    </div>
+</div>
+</div>
+
+
+
+
+</header>
+
+<section class="inner">
+  <div class="user-container">
  <!-- 유저명 적는 란 -->
 <form id="login-form" class="hidden">
-  <input required maxlength="15" type="text" placeholder="What is your name?">
-  <button>Log In</button>
+  <input required maxlength="15" 
+  type="text" 
+  placeholder="Write Your Name">
+  <button> ✔️ </button>
 </form>
-<h1 id="greeting" class="hidden"></h1>
 
-<!-- todo list -->
+<h1 id="greeting" class="hidden"></h1>
+</div>
+
+
+  <div class="todo-container">
+  <!-- todo list -->
 <form id="todo-form">
-  <input type="text" placeholder="Write a To Do and Press Enter" required />
+  <input 
+  type="text" 
+  placeholder="What is your today goal ?" 
+  required />
 </form>
 <ul id="todo-list"></ul>
-
-<!-- 명언 란 -->
-<div id="quote">
-  <span></span>
-  <span></span>
 </div>
-<div id="weather">
-  <span></span>
-  <span></span>
 
-</div>
+
+  <!-- 명언 란 -->
+  <div class="inner">
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+  
+
+  
+</section>
 
 
 <!-- 스크립트 import -->

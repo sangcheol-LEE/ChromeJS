@@ -32,7 +32,7 @@ function paintToDo (newTodo) {
   const span = document.createElement('span');
   span.innerText = newTodo.text;
   const button = document.createElement('button');
-  button.innerText = "❌ ";
+  button.innerText = "✔️";
   button.addEventListener('click',deleteToDo);
   li.appendChild(span); // li는 span 이라는 자식을 갖게 되었다.
   li.appendChild(button);
